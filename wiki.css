@@ -1,0 +1,64 @@
+body{
+    background-color:whitesmoke;
+    font-family: sans-serif;
+    800vh
+}
+
+.inside{
+    border:1px solid;
+    width: 250px;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    float: right;
+}
+
+.Prince{
+    width: 100%;
+    font-size: 0.9cm;
+    border-collapse: collapse;  
+    display: flex;  
+    float: right; 
+    border: 1px solid;
+    size: 10px;
+    
+  }
+  .lists{
+    position: fixed;
+    width: 15%;
+
+  }
+
+  .lists ul li{
+    list-style: none;
+
+
+  }
+
+  .main-content{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .top-list{
+    position:fixed ;
+    width: 15%;
+    margin-left: 85%
+
+  }
+  .Derek{
+    margin-left: 15%;
+  }
+  .balls{
+    display: flex;
+
+    
+  }
+
+  .balls input[type="checkbox"]{
+    border-radius: 70%;
+    align-items: center;
+    height: 30%;
+    width: 30%;
+
+  }
