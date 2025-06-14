@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+       
+
+       
+        
+        #header{
+        background-color:white;
+        text-align: center;
+        font-family: sans-serif;
+        height: 80px;
+        border: 2px solid;
+        
+        }
+
+        #footer{
+            height: 80px;
+            text-align: center;
+        }
+
+        #header p {
+            margin-top: -10px;
+        }
+        #main{
+            background-color: whitesmoke;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            column-gap: 10px;
+            row-gap: 10px;
+            flex-wrap: wrap;
+            border: 2px solid;
+            padding: 10px 10px
+        }
+        #footer{
+            background-color: black;
+            text-align: center;
+            color:whitesmoke;
+            
+        }
+        #main> div {
+            border: 2px solid black;
+            flex-grow: 1;
+            
+        }
+
+        #nav{
+            background-color: black;
+            color: whitesmoke;
+            justify-content:flex-end;
+            align-content: center;
+            text-align: center;
+
+        }
+        #section{
+            background-color: aliceblue;
+            display: flex;
+            /* text-align: center; */
+        }
+        #aside{
+            background-color: skyblue;
+        }
+
+        
+ 
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header"> 
+            <h1>welcome to our website</h1>
+            <p> the jounery start now </p>
+        </div>
+        <div id="main"> 
+            <div id="nav"> 
+                smoke school university
+            </div>
+            
+            <div id="section"> 
+                <div>
+                    <h1>main content Area</h1>
+                    <p> the maind is the greatest gift to man
+                        will you change your mind. am outside but am lowkey 
+                    </p>
+                    <img src="dogs.jpg" alt="my fingers"title="fingers" width="200px" height="100px"/>
+                    
+
+                </div>
+
+                <div id="feat">
+                    <h4>features</h4>
+                    <ul>
+                        <li>balls</li>
+                        <li> cars</li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div id="aside"> 
+                <ul>
+                    <li><a href="https://www.goggle.com/">home</a></li>
+                    <li> <a href="https://www.derek prince//"> about</a></li>
+                    <li><a href="https://www.livescore.com"> game </a> </li>
+                </ul>
+                
+            </div>
+        </div>
+        <div id="footer"> &copy;2003 first telecom company </div>
+
+    </div>
+</body>
+</html>
